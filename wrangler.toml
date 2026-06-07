@@ -1,0 +1,12 @@
+name = "make-your-predictions"
+compatibility_date = "2024-03-20"
+pages_build_output_dir = ".vercel/output/static"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "make-your-prediction-db"
+database_id = "41cbb3b0-91e3-42a2-a165-2e84a7ae39e8" # Replace with actual DB ID after `wrangler d1 create`
+
+[vars]
+# Add environment variables here
+# NEXTAUTH_URL="https://makeyourprediction.com"
